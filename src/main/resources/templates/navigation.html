@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-
 <body>
 
 <div th:fragment="nav">
@@ -20,8 +19,11 @@
                     <button type="submit" class="btn btn-default">搜索</button>
                 </form>
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/login/oauth/authorize?client_id=7b905155e887b204c5d6&redirect_uri=http://localhost:8887/callback&state=1">登录</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">登录 <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            我
+                            <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">我的主页</a></li>
                             <li><a href="#">我的收藏</a></li>

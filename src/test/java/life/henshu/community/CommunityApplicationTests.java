@@ -1,4 +1,4 @@
-package life.henshu.community.community;
+package life.henshu.community;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

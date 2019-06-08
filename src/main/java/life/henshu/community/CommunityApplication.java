@@ -1,4 +1,4 @@
-package life.henshu.community.community;
+package life.henshu.community;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

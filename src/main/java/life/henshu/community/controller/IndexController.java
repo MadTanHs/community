@@ -1,4 +1,4 @@
-package life.henshu.community.community.controller;
+package life.henshu.community.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class IndexController {
 
-    @GetMapping("/")
-    public  String index(@RequestParam(name="name") String name, Model model){
-        model.addAttribute("name", name);
+    @GetMapping("/index")
+    public  String index(){
         return "index";
     }
 }
